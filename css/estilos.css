@@ -8,6 +8,7 @@ body {
 .content {
     background-color: greenyellow;
     grid-area: content;
+    padding: 20px;
 }
 .aside {
     background-color: dimgray;
