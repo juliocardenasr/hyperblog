@@ -1,0 +1,30 @@
+body {
+    background-color: red;
+}
+.header {
+    background-color: blue;
+    grid-area: header;
+}
+.content {
+    background-color: greenyellow;
+    grid-area: content;
+}
+.aside {
+    background-color: dimgray;
+    grid-area: aside;
+}
+.footer {
+    background-color: black;
+    grid-area: footer;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap:    10px;
+    grid-template-areas: 
+         "header header  header"
+         "aside  content content"
+         "footer footer  footer";
+    background-color: white;
+}   
