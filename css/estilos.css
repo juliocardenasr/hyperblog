@@ -13,9 +13,19 @@ body {
     background-color: dimgray;
     grid-area: aside;
 }
-.footer {
+.footerIzq {
     background-color: black;
-    grid-area: footer;
+    color: aquamarine;
+    text-align: center;
+    grid-area: footerIzq;
+}
+.footerDer {
+    background-color: orange;
+    grid-area: footerDer;
+}
+.footerDer img {
+    padding: 5px;
+    width: 50px;
 }
 .grid {
     display: grid;
@@ -23,8 +33,8 @@ body {
     grid-column-gap: 10px;
     grid-row-gap:    10px;
     grid-template-areas: 
-         "header header  header"
-         "aside  content content"
-         "footer footer  footer";
+         "header header        header"
+         "aside  content       content"
+         "footerIzq footerIzq  footerDer";
     background-color: white;
 }   
